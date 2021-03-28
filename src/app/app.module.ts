@@ -4,28 +4,30 @@ import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProductComponent } from './components/product.component';
 import { CartComponent } from './cart/cart.component';
-import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductsComponent } from './products/products.component';
 import { DemoComponent } from './demo/demo.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { BannerComponent } from './banner/banner.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductComponent } from './components/product.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductComponent,
-    CartComponent,
-    HomeComponent,
-    ContactComponent,
     ProductsComponent,
+    CartComponent,
+    ContactComponent,
     DemoComponent,
     HeaderComponent,
     FooterComponent,
-    BannerComponent
+    PageNotFoundComponent,
+    ProductDetailComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
